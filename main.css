@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+  padding: 0;
+  background: #7f8c8d;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.container {
+	width: 800px;
+	background-color: #ecf0f1;
+	/*margin: 0 auto;*/
+	margin: 20px auto;
+	position: relative;
+}
+
+.main-nav {
+	background-color: #34495e;
+	text-align: right;
+
+
+}
+.main-nav ul {
+list-style-type: none;
+color: white;
+font-size: 20px;
+display: inline-flex;
+margin: 12px;
+padding: 10px;
+}
+
+.main-nav li {
+	padding: 5px;
+}
+
+a{
+	color: #fff;
+}
+
+.sidebar {
+	width: 32%;
+	position: absolute;
+	left: 100%;
+	top: 300px;
+	background-color: #ecf0f1;
+	margin: 77px 9px;
+	padding: 0 12px; 
+	/*color: grey;*/
+	font-size: 17px;
+	line-height: 1.5;
+}
+.sidebar ul {
+	list-style-type: none;
+		color: grey;
+
+}
+
+.heading {
+	background-color: #2ecc71;
+	height: 300px;
+	color: #fff;
+	line-height: 22;
+	font-size: 24px;
+}
+
+.main-content p{
+	font-family: Arial;
+	margin: 1px auto;
+	padding: 2px 24px;
+	font-size: 16px;
+	width: 80%;
+}
+
+.main-content h1 {
+	margin-left: 20px;
+	/*margin: 0 auto;*/
+}
+
+.main-content h2 {
+		margin-left: 20px;
+		border-bottom-width:  thin;
+		border-bottom-style: solid;
+		border-bottom-color: grey;
+		border-collapse: collapse;
+
+}
+
+.table-standard {
+	width: 90%;
+	margin: 5px auto;
+	font-size: 18px;
+}
+.table-standard th {
+	background-color: #7f8c8d;
+	text-align: left;
+}
+
+.table-standard th,
+.table-standard td{
+border: 1px solid black;
+padding: 5px 10px;
+margin: 10px 5px;
+/*width: 80%;*/
+}
+
+.button-fancy {
+	color: white;
+	background-color: #3498db;
+	padding: 5px 25px;
+	border: transparent;
+
+}
+
+pre {
+	background-color: #bdc3c7;
+	font-size: 16px;
+	width: 80%;
+	margin: 15px auto;
+	height: 140px;
+}
+code {
+	margin-left: -180px;
+	float: left;
+}
+
+.main-content img {
+	margin: 20px 45px;
+	/*vertical-align: middle;*/
+	width: 85%;
+}
+
+.main-content ol {
+	font-size: 18px;
+}
+
+.article-footer {
+	font-size: 18px;
+	color: grey;
+	padding: 14px;
+	margin:20px;
+}
+
+.input-submit {
+	background-color: red;
+	color: white;
+	width: 80%;
+	font-size: 25px;
+	border: none;
+	/*the display button is necessary for the centering of the button*/
+	display: block;
+	margin: 10px auto 30px auto;
+	padding: 10px 5px;
+}
+.legend {
+  text-transform: uppercase;
+  color: #999;
+  margin-left: 20px;
+  padding: 5px 10px;
+
+}
+.input-group {
+	overflow: hidden;
+	font-size: 20px;
+	padding: 7px;
+	/*width: 80%;*/
+	margin: 10px 120px;
+	text-align: right;
+	
+}
+.form-section {
+	width: 80%;
+	border-top: 1px 0 0 0 solid #bdc3c7;
+	font-size: 17px;
+	margin: 0 auto;
+	border: none;
+	border-top: 1px solid grey;
+}
+.form-control {
+	/*padding: 10px 10px;*/
+	/*width: 300px;*/
+}
+.developerInfo h1 {
+
+padding: 5px 20px;
+}
+.list-nested {
+	margin-top: 20px;
+	list-style-type: none;
+}
+.list-nested li {
+	margin-bottom: 20px;
+		list-style-type: none;
+
+}
+
+.list-nested li ul {
+	margin-left: 20px;
+	padding-left: 10px;
+	border-left: 1px solid #ccc;
+
+}
+
+.media-block-meta {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.media-block-title {
+  margin: 7px 0;
+  padding-left: 65px;
+}
+.media-block-subtitle {
+  padding-left: 15px;
+  font-style: italic;
+  color: #999;
+}
+
+.comment-body {
+	padding-bottom: 20px
+}
+
+
+
